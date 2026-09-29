@@ -39,7 +39,7 @@ on:
             - name:Variaveis de contexto
             run: |
               echo " == VARIÁVEIS DE CONTEXTO == "
-              echo " Variáveis env: { env.NODE_VERSION }"
+              echo " Variáveis env: ${{ env.NODE_VERSION }}"
               echo " 1. env: Defonição de variaáveis de ambiente"
               echo "2. contextos: Acesso a informações do workflow, job, runner, etc"
               echo ""
